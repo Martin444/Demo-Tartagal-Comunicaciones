@@ -25,7 +25,7 @@ export default function FooterMenu() {
 }
 
 const FooterMenuWrapper = styled.footer`
-    position: absolute;
+    position: sticky;
     width:100%;
     display:flex;
     color: #fff;
@@ -41,17 +41,38 @@ const FooterMenuWrapper = styled.footer`
 
     .home{
         height:50px;
+        transition: all 0.3s ease-in-out;
         float: left;
+    }
+
+    .home:hover{
+        height:60px;
+        position: absolute;
+        left: 5px;
     }
 
     .pay{
         height: 50px;
+        transition: all 0.3s ease-in-out;
         margin: auto;
+    }
+
+    .pay:hover{
+        height: 70px;
+        margin: auto;
+        left: 50%;
     }
 
     .mss{
         height: 50px;
+        transition: all 0.3s ease-in-out;
         float: right;
+    }
+
+    .mss:hover{
+        height: 60px;
+        position:absolute;
+        right:52px;
     }
 
 `
