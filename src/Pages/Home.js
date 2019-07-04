@@ -15,7 +15,7 @@ export default class Home extends Component {
             <>
                 <NavBar/>
                     <Switch>
-                        <Route exact path="/home" component={HomePage}/>
+                        <Route exact path="/" component={HomePage}/>
                         <Route exact path="/home/Planes" component={Payment}/>
                         <Route exact path="/home/Mensajes" component={Message}/>
                     </Switch>

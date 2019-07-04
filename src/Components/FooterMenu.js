@@ -10,7 +10,7 @@ export default function FooterMenu() {
     return (
         <FooterMenuWrapper>
             <div className="img-container">
-            <Link to="/home">
+            <Link to="/">
                 <img className="home" src={Home} alt="Home"/>
             </Link>
             <Link to="/home/Planes">
